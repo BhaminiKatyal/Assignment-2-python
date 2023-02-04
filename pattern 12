@@ -1,0 +1,12 @@
+sum=2
+prev=1
+n=int(input('enter no. of rows:'))
+print('0\n')
+print('1 1\n')
+for i in range(3,n+1):
+    for j in range(i):
+        print(sum,end=' ')
+        k=prev
+        prev=sum
+        sum=sum+k
+    print('\n')
