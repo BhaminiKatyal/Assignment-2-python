@@ -1,0 +1,7 @@
+k=1
+n = int(input("enter:"))
+for i in range(n+1):
+    for j in range(i):
+        print(k,end=" ")
+        k+=1
+    print("\n")
